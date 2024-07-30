@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/lessonTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lesson 3: Advanced Grammar"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/lessonContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Lesson 3. In this lesson, you will learn advanced grammar rules and structures."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+
+        <ImageView
+            android:id="@+id/lessonImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/less3"
+            android:contentDescription="Lesson Image"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/lessonPart1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Part 1: Complex Sentences"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/lessonPart1Content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In this part, you will learn how to construct complex sentences."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+
+        <Button
+            android:id="@+id/playAudioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Audio"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/lessonPart2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Part 2: Subordinate Clauses"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/lessonPart2Content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In this part, you will learn about subordinate clauses and their usage."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/lessonExampleTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Example:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/lessonExampleContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Although it was raining, we decided to go out."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+
+        <Button
+            android:id="@+id/nextLessonButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Lesson"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/previousLessonButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous Lesson"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

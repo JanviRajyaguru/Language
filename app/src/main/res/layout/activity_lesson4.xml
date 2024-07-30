@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/lessonTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lesson 4: Conversational Skills"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/lessonContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Lesson 4. In this lesson, you will learn how to improve your conversational skills."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+
+        <ImageView
+            android:id="@+id/lessonImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/less4"
+            android:contentDescription="Lesson Image"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/lessonPart1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Part 1: Starting a Conversation"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/lessonPart1Content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In this part, you will learn how to start a conversation naturally."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+
+        <Button
+            android:id="@+id/playAudioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Audio"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/lessonPart2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Part 2: Maintaining a Conversation"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/lessonPart2Content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In this part, you will learn how to maintain a conversation and keep it flowing."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/lessonExampleTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Example:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/lessonExampleContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi, how's your day going? It's going well, thank you! How about yours?"
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+
+        <Button
+            android:id="@+id/nextLessonButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Lesson"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/previousLessonButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous Lesson"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

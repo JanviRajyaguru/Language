@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">English Learning App</string>
+
+    <string name="title_activity_lesson">Lesson</string>
+    <string name="title_activity_quiz">Quiz</string>
+    <string name="title_activity_progress">Progress</string>
+    <string name="title_activity_community">Community</string>
+</resources>

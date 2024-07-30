@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/courseCompletionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Congratulations!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/courseCompletionContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You have successfully completed the English learning course. Great job!"
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/courseCompletionImage"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:contentDescription="Completion Image"
+            android:paddingBottom="16dp"
+           android:src="@drawable/con"/>
+
+
+        <Button
+            android:id="@+id/startAgainButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Again"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

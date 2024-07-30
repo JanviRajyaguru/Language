@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/progressTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progress Overview"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/lessonsCompleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lessons Completed: 0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/quizScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Score: 0/0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/overallProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overall Progress: 0%"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="16dp"/>
+
+    <Button
+        android:id="@+id/refreshProgressButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh Progress"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:paddingTop="16dp"/>
+
+</LinearLayout>
